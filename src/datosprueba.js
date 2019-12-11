@@ -186,5 +186,6 @@ const freelancers_details = [
 ];
 
 module.exports = {
-  freelancers
+  freelancers,
+  freelancers_details
 };
