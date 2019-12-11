@@ -6,19 +6,15 @@
             <!-- About me img -->
             <div class="col-xl-4 col-lg-4 col-md-5 col-sm-4 col-12">
                 <div class="image-wrapper">
-                    <img src="images/face2.jpg" alt="About me photo" />
+                    <img src="<%= detalles.imagen_perfil %>" alt="About me photo" />
                     <div class="subtitulo text-left pl-0">Mis habilidades principales</div>
                     <!-- Barra de skills -->
                     <div class="skills-bars">
                         <ul class="tags pl-0">
-                            <li>lorem2</li>
+                            <% detalles.tags.forEach(function(tag){ %>
+                            <li> <%=tag%></li>
                             <br>
-                            <li>lorem2</li>
-                            <br>
-                            <li>lorem2</li>
-                            <br>
-                            <li>lorem2</li>
-                            <br>
+                          <%}) %>
                         </ul>
                       
                     </div>
@@ -27,22 +23,17 @@
             <!-- About me contenido-->
             <div class="col-xl-7 col-lg-7 col-md-10">
                 <div class="about-wrapper">
-                    <h3 class="seccion-titulo mt-4">Leonardo Castellana <span></span></h3>
+                    <h3 class="seccion-titulo mt-4"><%= detalles.nombre %> <span></span></h3>
                     <span class="seccion-subtitulo">
-                        Front End Developer
+                        <%= detalles.especialidad %>
                     </span>
                     <div class="description">
-                        <p>Lo que sea de la descripcion.<br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Voluptate aspernatur soluta doloremque tempora provident cum optio pariatur odio ex tempore?
-                            <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia facere adipisci
-                            magni corrupti sit harum voluptas delectus eligendi accusantium inventore praesentium autem,
-                            pariatur quis dolorum laudantium laborum eaque, esse quibusdam.</p>
+                        <p><%= detalles.resumen %></p>
                     </div>
                 </div>
-
                 <!-- Boton de contratar -->
                 <div class="about-buttons">
-                    <a href="javascript:;" class="btn-main">Contratar</a>
+                    <a href="/propuesta" class="btn-main">Contratar</a>
                 </div>
             </div>
         </div>
