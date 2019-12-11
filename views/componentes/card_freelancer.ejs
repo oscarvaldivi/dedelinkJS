@@ -1,0 +1,23 @@
+<% /* Recibe objecto FREELANCER */ %>
+<div class="col-12 col-sm col-md-4 col-lg-3">
+    <!-- <a href="<%= freelancer.link %>"> -->
+      <div class="card">
+        <img src=<%= "images/" + ["perfil-freelance-amarillo", "perfil-freelance-rojo", "perfil-freelance-azul"][Math.floor(Math.random()*3)] + ".jpg" %> class="card-img-top" alt="..." />
+        <div class="card-body text-center">
+          <h5 class="card-title font-weight-light mb-1">
+            <%= freelancer.nombre %>
+          </h5>
+          
+          <h5 class="card-title font-weight-bold"><%= freelancer.especialidad %></h5>
+          <ul class="tags">
+              <% freelancer.tags.slice().forEach(function(tag){ %>
+                  <li><a href="#"> <%= tag %> </a></li>
+             <% }) %>
+          </ul>
+          <a href="#" class="btn btn-primary card-link"
+            >Proponer Proyecto</a
+          >
+        </div>
+      </div>
+    <!-- </a> -->
+  </div>

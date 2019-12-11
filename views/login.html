@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <form action="/login" method="POST">
+        <div class='login'>
+            <h2>Dedelink</h2>
+            <div class="texto-registro">
+            <input name='username' placeholder='Nombre de Usuario' type='text'>
+            <input id='pw' name='password' placeholder='contraseña' type='password'>
+            <input name='email' placeholder='correo electrónico' type='text'>
+            <div class='agree'>
+                <input id='agree' name='agree' type='checkbox'>
+                <label for='agree'></label>Acepto las políticas de privacidad
+            </div>
+            <input class='animated' type='submit' value='Register'>
+            <a class='forgot' href='#'>¿No tienes una cuenta? Regístrate Ahora.</a>
+        </div>
+    </div>
+    </form>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background:#243EF6 ;
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-family: "Open Sans", cursive;
+            font-size: 15px;
+            font-weight: bold;
+            font-size: 3.6em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .login {
+            width: 350px;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            margin-left: -175px;
+        }
+        .texto-registro{
+            color: #ffffff;
+            font-family: "Open Sans", cursive;
+
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 350px;
+            padding: 20px 0px;
+            background: transparent;
+            border: 0;
+            border-bottom: 1px solid #ff3960;
+            outline: none;
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+        input[type=checkbox] {
+            display: none;
+        }
+
+        label {
+            display: block;
+            position: absolute;
+            margin-right: 10px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: transparent;
+            content: "";
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            border: 3px solid #ff3960;
+        }
+
+        #agree:checked~label[for=agree] {
+            background: #ffffff;
+        }
+
+        input[type="submit"] {
+            background: #FF396C;
+            border: 0;
+            width: 350px;
+            height: 40px;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+
+        input[type="submit"]:hover {
+            background: #FF396C;
+            animation-name: shake;
+        }
+
+        .forgot {
+            margin-top: 30px;
+            display: block;
+            font-size: 11px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .forgot:hover {
+            margin-top: 30px;
+            display: block;
+            font-size: 11px;
+            text-align: center;
+            font-weight: bold;
+            color: #6D7781;
+        }
+
+        .agree {
+            padding: 30px 0px;
+            font-size: 12px;
+            text-indent: 25px;
+            line-height: 15px;
+        }
+
+        ::-webkit-input-placeholder {
+            color: #435160;
+            font-size: 12px;
+        }
+
+        .animated {
+            animation-fill-mode: both;
+            animation-duration: 1s;
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            10%,
+            30%,
+            50%,
+            70%,
+            90% {
+                transform: translateX(-10px);
+            }
+
+            20%,
+            40%,
+            60%,
+            80% {
+                transform: translateX(10px);
+            }
+        }
+    </style>
+</body>
+
+</html>

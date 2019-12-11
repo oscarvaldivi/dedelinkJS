@@ -1,0 +1,168 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+/* 0. General */
+*{margin: 0;padding: 0;}
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    color: #9e9e9e;
+    line-height: 25px;
+    
+}
+/* Contenido */
+.section-padding {
+    padding: 80px 0;  /*Margen superior para la barra de navegacion*/
+}
+
+.seccion-titulo {
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.seccion-titulo span { 
+    background: #a8eb12;
+    margin-left: 10px;
+    height: 5px;
+    width: 30px;
+    display: inline-block;
+}
+
+.seccion-subtitulo {
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+section#about-me .image-wrapper {
+    padding: 0 0 0 30px;
+    position: relative;
+    margin-bottom: 30px !important;
+}
+
+section#about-me .image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+section#about-me .description {
+    margin: 40px 0;
+}
+
+section#about-me .description p {
+    letter-spacing: 1px;
+    color: #707070;
+}
+
+section#about-me .skill-title {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #5c5c5c;
+    margin: 5px;
+    background-color: rgb(241, 241, 241);
+}
+
+section#about-me .skill-title p {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #5c5c5c;
+}
+
+section#about-me .skill-progress span {
+    background: #a8eb12;
+    display: block;
+    height: 5px;
+    width: 0;
+    transition: width 1s;
+}
+section#about-me .subtitulo{
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #85bb11;
+    text-align: center;
+}
+
+section#about-me .skills-bars {
+    margin-bottom: 40px;
+    
+}
+
+a.btn-main {
+    text-decoration: none;
+    background: #5c5c5c;
+    padding: 15px 25px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) and (min-width: 320px) {
+    .seccion-titulo{
+        margin-top: 8px;
+    }
+}
+@media (max-width: 768px) {
+    .home .header-meta {
+        margin-left: 0 !important;
+        padding: 10px !important;
+    }
+
+    .home .header-info h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home .header-meta {
+        margin-left: 0 !important;
+        padding: 10px !important;
+    }
+
+    .home .header-info h1 {
+        font-size: 30px;
+        padding-left: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .home .header-info h1::before {
+        width: 30px;
+    }
+
+    ul.header-meta {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .home .header-meta li:first-of-type::after {
+        content: "|";
+        color: #a8eb12;
+        font-size: 11px;
+        top: -1px;
+        position: relative;
+        padding: 0 15px 0 15px;
+    }
+
+    .home .header-meta li:nth-of-type(2)::before {
+        content: "";
+    }
+
+    .home .header-meta li:first-of-type {
+        text-align: left;
+    }
+    .home .header-meta li:nth-of-type(2) {
+        text-align: center;
+    }
+    .home .header-meta li:last-of-type {
+        text-align: right;
+        padding-right: 15px;
+    }
+}
