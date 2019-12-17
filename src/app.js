@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 const basededatos = require("./datosprueba");
 const isProduction = process.env.NODE_ENV === "production";
-const PORT = isProduction ? 80 : 3000;
+const PORT = isProduction ? process.env.PORT : 3000;
 
 //app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
