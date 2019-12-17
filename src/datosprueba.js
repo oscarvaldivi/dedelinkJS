@@ -1,17 +1,18 @@
 const freelancers = [
   {
-    nombre: "Netti",
-    especialidad: "Director of Sales",
-    tags: ["Zumba Instruction", "MLSS", "Tires", "Wind"]
+    nombre: "Saul",
+    especialidad: "Diseñador Gráfico",
+    tags: ["Diseño gráfico", "Photoshop", "UX", "Javascript"]
   },
   {
-    nombre: "Verla",
-    especialidad: "Senior Developer",
+    nombre: "Lorena",
+    especialidad: "FrontEnd Developer",
     tags: [
-      "Ultrasonics",
-      "Kernel Programming",
-      "GxP",
-      "Alternative Investments"
+      "Javascript",
+      "HTML",
+      "CSS",
+      "JQuery",
+      "AngularJs"
     ]
   },
   {

@@ -1,0 +1,98 @@
+<%- include ("componentes/header", {titulo: "Encuentra Freelancers"}) %>
+<main>
+  <section id="su rior">
+    <div id="imagen-superior-backends" class="jumbotron jumbotron-fluid">
+      <!-- <img src="images/dedelink_imagen_portada.jpg"> -->
+      <div class="container text-center py-5 text-light">
+        <h2 class="mb-4">
+          Front End developers freelances<br>   
+        </h2>
+
+        <form>
+          <div class="row no-gutters bg-white p-2 rounded">
+            <div class="col mr-2">
+              <input id="mySearch" placeholder="Encontrar un freelance..." type="text" class="form-control"
+                onkeyup="myFunction">
+            </div>
+            <div class="col-2">
+              <button class="btn btn-secondary w-100" type="submit">
+                Buscar
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <h2 class="mb-4">
+        FrontEnd developers disponibles para tu proyecto<br>   
+      </h2>
+  </div>
+  <section id="zonaVip" class="container">
+    <div class="row">
+      <% freelancers.slice(-8).forEach(function(freelancer){ %>
+
+      <%- include ("componentes/card_freelancer",{freelancer}) %>
+
+      <%}) %>
+    </div>
+  </section>
+  <section class="container" id="equipo">
+      <h3 class="titulo">Simplifica la búsqueda para tus proyectos</h3>
+      <br>
+      <div class="row">
+  
+        <div class="col">
+  
+          <div class="content-card">
+            <div class="people">
+              <img width="350" src="/images/simplifica_busqueda.svg" alt="avatar">
+            </div>
+            <div class="texto-team">
+             
+              <p>Con Dedelink podrás realizar búsquedas para  seleccionar a los mejores freelance para tu proyecto.</p>
+            </div>
+            
+          </div>
+        
+        
+        </div>
+      </div>
+      </div>
+     
+    </section>
+  <section>
+    <!-- Un aside para el Blog (opcional) -->
+  </section>
+</main>
+<style>
+  #navtop {
+    background: none;
+  }
+
+  #navtop.visible {
+    background: #000;
+    transition: all 0.2s ease-out;
+  }
+</style>
+<script>
+  window.addEventListener('load', () => {
+    $(document).ready(function () {
+      var navegacion = $('#navtop');
+      function toggleNavbar() {
+        if (window.pageYOffset > navegacion.height() + $('#imagen-superior').height()) {
+          !navegacion.hasClass('visible') && navegacion.addClass('visible')
+          //navegacion.css('background','black')
+        } else {
+          //navegacion.css('background','')
+          navegacion.removeClass('visible')
+        }
+
+      }
+      window.addEventListener('scroll', toggleNavbar);
+    })
+  });
+  
+</script>
+<%- include ("componentes/footer") %>
