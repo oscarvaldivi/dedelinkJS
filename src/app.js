@@ -90,11 +90,11 @@ app.get("/gracias", function(req, res) {
 });
 
 app.get("/propuesta", function(req, res) {
-  res.render("propuesta")
+  res.render("propuesta");
 });
 
 app.get("/register", function(req, res) {
-  res.render("registro")
+  res.render("registro");
 });
 
 app.post("/login", function(req, res) {
@@ -110,5 +110,7 @@ app.listen(3000, function() {
   console.log("Aplicacion Lista, visita http://localhost:3000 !");
 });
 
-const liveserver = require("livereload").createServer({ extraExts: ["ejs"] });
-liveserver.watch(["views", "static"]);
+if (process.env.NODE_ENV !== "production") {
+  const liveserver = require("livereload").createServer({ extraExts: ["ejs"] });
+  liveserver.watch(["views", "static"]);
+}
