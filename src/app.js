@@ -1,6 +1,8 @@
 var express = require("express");
 var app = express();
 const basededatos = require("./datosprueba");
+const isProduction = process.env.NODE_ENV === "production";
+const PORT = isProduction ? 80 : 3000;
 
 //app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -106,11 +108,14 @@ app.get("/freelancers", function(req, res) {
   //res.json({"freelancers": basedatos});
 });
 
-app.listen(3000, function() {
-  console.log("Aplicacion Lista, visita http://localhost:3000 !");
+app.listen(PORT, function() {
+  console.log(
+    `Aplicacion Lista, visita http://localhost:${PORT}`,
+    isProduction ? ", corriendo en modo produccion" : ""
+  );
 });
 
-if (process.env.NODE_ENV !== "production") {
+if (!isProduction) {
   const liveserver = require("livereload").createServer({ extraExts: ["ejs"] });
   liveserver.watch(["views", "static"]);
 }
