@@ -22,7 +22,7 @@ app.get("/", function(req, res) {
 
 /* Configura ruta de la aplicacion web (www.aplicacion.com/backends) para mostrar la plantilla backends */
 app.get("/backends", function(req, res) {
-  res.render("backends", { freelancers: basededatos.freelancers });
+  res.render("backends", { freelancers: basededatos.freelancers, detalles:basededatos.freelancers_details });
 });
 
 /* Configura ruta de busqueda de la aplicacion web (www.aplicacion.com/busqueda) para generar resultados y servir plantilla con resultados */
@@ -88,7 +88,7 @@ app.get("/perfiles/:freelancer", function(req, res) {
 });
 
 app.get("/backend_busqueda", function(req, res) {
-  res.render("backend_busqueda", { freelancers: basededatos.freelancers });
+  res.render("backend_busqueda", { freelancers: basededatos.freelancers, detalles:basededatos.freelancers_details });
 });
 app.get("/gracias", function(req, res) {
   res.render("gracias");
