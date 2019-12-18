@@ -44,9 +44,11 @@ app.get("/busqueda", function(req, res) {
      */
     const resultados = basededatos.freelancers.filter(freelancer => {
       let tags = freelancer.tags.map(tag => tag.toLowerCase());
-      if (keywords.includes(freelancer.especialidad.toLowerCase())) {
+      tags.push(...freelancer.especialidad.split(" ").map(word => word.toLowerCase()));
+      /* if (keywords.includes(freelancer.especialidad.toLowerCase())) {
         return true;
-      }
+      } */
+
       for (let i = 0; i < tags.length; i++) {
         for (let j = 0; j < keywords.length; j++) {
           if (tags[i].indexOf(keywords[j]) !== -1) {
