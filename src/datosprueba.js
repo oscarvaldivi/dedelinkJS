@@ -270,8 +270,7 @@ const freelancers_details = [
   {
     nombre: "Gonzalo Férnandez",
     resumen:
-      "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus
-      ",
+      "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
