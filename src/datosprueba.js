@@ -106,7 +106,7 @@ const freelancers_details = [
   {
     nombre: "Saul Roldán",
     resumen:
-      "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+      "soy diseñador con experiencia en...",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
