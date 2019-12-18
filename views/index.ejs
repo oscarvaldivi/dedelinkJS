@@ -108,7 +108,7 @@
   </section>
   <section id="zonaVip" class="container">
     <div class="row">
-      <% freelancers.slice(-8).sort((a,b)=>Math.random()-Math.random()).forEach(function(freelancer){ %>
+      <% freelancers.sort((a,b)=>Math.random()-Math.random()).slice(-8).forEach(function(freelancer){ %>
 
       <%- include ("componentes/card_freelancer",{freelancer}) %>
 

@@ -120,7 +120,7 @@ const freelancers_details = [
     nombre: "Lorena Hernández",
     resumen:
       "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
-    imagen_perfil: "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
+    imagen_perfil: "/images/perfilesfoto/lorena_hernandez.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
       "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
@@ -167,7 +167,7 @@ const freelancers_details = [
     nombre: "Carlos Juan",
     resumen:
       "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
-    imagen_perfil: "http://dummyimage.com/250x250.jpg/dddddd/000000",
+    imagen_perfil: "/images/perfilesfoto/carlosjuan_serra.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
       "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
@@ -179,7 +179,7 @@ const freelancers_details = [
     nombre: "Oscar Valdivia",
     resumen:
       "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
-    imagen_perfil: "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
+    imagen_perfil: "/images/perfilesfoto/oscar_valdivia.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
       "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
@@ -191,7 +191,7 @@ const freelancers_details = [
   {
     nombre: "Alejandro Nevado",
     resumen: "In congue. Etiam justo. Etiam pretium iaculis justo.",
-    imagen_perfil: "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
+    imagen_perfil: "/images/perfilesfoto/alejandro_nevado.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
@@ -213,7 +213,7 @@ const freelancers_details = [
     nombre: "Georgi Anatoliev",
     resumen:
       "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
-    imagen_perfil: "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
+    imagen_perfil: "/images/perfilesfoto/georgi.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
       "http://dummyimage.com/250x250.jpg/dddddd/000000",
@@ -224,7 +224,7 @@ const freelancers_details = [
     nombre: "Diego Collados",
     resumen:
       "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
-    imagen_perfil: "http://dummyimage.com/250x250.jpg/dddddd/000000",
+    imagen_perfil: "/images/perfilesfoto/diego_collados.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
       "http://dummyimage.com/250x250.jpg/dddddd/000000",
