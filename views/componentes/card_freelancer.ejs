@@ -1,9 +1,14 @@
 <% /* Recibe objecto FREELANCER */ %>
 <div class="col-12 col-sm col-md-4 col-lg-3">
-  <!-- <a href="<%= freelancer.link %>"> -->
+  <!-- pic: detalles.find(fld=>fld.nombre===freelancer.nombre)}).imagen_perfil<a href="<%= freelancer.link %>"> -->
   <div class="card">
+    <% function getph(){return '/images/'+["perfil-freelance-amarillo", "perfil-freelance-rojo", "perfil-freelance-azul"][Math.floor(Math.random()*3)] + ".jpg"}
+    const tieneperfil = detalles.find(fld=>fld.nombre===freelancer.nombre);
+    const imgperfil = tieneperfil ? tieneperfil.imagen_perfil : '';
+    
+    %>
     <img
-      src=<%= "images/" + ["perfil-freelance-amarillo", "perfil-freelance-rojo", "perfil-freelance-azul"][Math.floor(Math.random()*3)] + ".jpg" %>
+      src='<%= /^\//.test(imgperfil) ? imgperfil : getph() %>'
       class="card-img-top" alt="..." />
     <div class="card-body text-center">
       <h5 class="card-title font-weight-light mb-1">

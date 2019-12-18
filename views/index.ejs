@@ -110,7 +110,7 @@
     <div class="row">
       <% freelancers.sort((a,b)=>Math.random()-Math.random()).slice(-8).forEach(function(freelancer){ %>
 
-      <%- include ("componentes/card_freelancer",{freelancer}) %>
+      <%- include ("componentes/card_freelancer",{freelancer,detalles}) %>
 
       <%}) %>
     </div>

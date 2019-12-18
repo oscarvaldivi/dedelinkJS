@@ -51,7 +51,7 @@ const freelancers = [
     tags: ["MySQL", "Php", "Ruby", "Java", "Javascript"]
   },
   {
-    nombre: "Diego Collados",
+    nombre: "Diego Collado",
     especialidad: "Senior FrontEnd Developer",
     tags: ["Angular", "Javascript", "NodeJs", "Php", "MySQL"]
   },
@@ -221,10 +221,10 @@ const freelancers_details = [
     ]
   },
   {
-    nombre: "Diego Collados",
+    nombre: "Diego Collado",
     resumen:
       "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
-    imagen_perfil: "/images/perfilesfoto/diego_collados.jpg",
+    imagen_perfil: "/images/perfilesfoto/diego_collado.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
       "http://dummyimage.com/250x250.jpg/dddddd/000000",

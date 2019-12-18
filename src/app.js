@@ -17,7 +17,7 @@ app.use(express.static("static"));
 
 /* Configura ruta principal de la aplicacion web (www.aplicacion.com/) para mostrar la plantilla index */
 app.get("/", function(req, res) {
-  res.render("index", { freelancers: basededatos.freelancers });
+  res.render("index", { freelancers: basededatos.freelancers, detalles:basededatos.freelancers_details });
 });
 
 /* Configura ruta de la aplicacion web (www.aplicacion.com/backends) para mostrar la plantilla backends */
@@ -59,6 +59,7 @@ app.get("/busqueda", function(req, res) {
     });
     res.render("resultados", {
       freelancers: resultados,
+      detalles: basededatos.freelancers_details,
       filtros: JSON.stringify(filtros)
     });
 
