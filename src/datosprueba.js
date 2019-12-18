@@ -143,7 +143,7 @@ const freelancers_details = [
     nombre: "Tamar Buela",
     resumen:
       "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
-    imagen_perfil: "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
+    imagen_perfil: "/images/perfilesfoto/tamar_.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
       "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
@@ -155,7 +155,7 @@ const freelancers_details = [
     nombre: "Thamara Gerig",
     resumen:
       "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
-    imagen_perfil: "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
+    imagen_perfil: "/images/perfilesfoto/tamara_gerig.jpg",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
       "http://dummyimage.com/250x250.jpg/dddddd/000000",
