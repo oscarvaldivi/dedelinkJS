@@ -106,7 +106,7 @@ const freelancers_details = [
   {
     nombre: "Saul Roldán",
     resumen:
-      "soy diseñador con experiencia en...",
+      "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
@@ -166,7 +166,7 @@ const freelancers_details = [
   {
     nombre: "Carlos Juan",
     resumen:
-      "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/dddddd/000000",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
@@ -178,7 +178,7 @@ const freelancers_details = [
   {
     nombre: "Oscar Valdivia",
     resumen:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
@@ -201,7 +201,7 @@ const freelancers_details = [
   {
     nombre: "Jorge Alayo",
     resumen:
-      "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+      "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/cc0000/ffffff",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
@@ -234,7 +234,7 @@ const freelancers_details = [
   {
     nombre: "Cristhian Armijos",
     resumen:
-      "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/dddddd/000000",
@@ -258,7 +258,7 @@ const freelancers_details = [
   {
     nombre: "Henry Rios",
     resumen:
-      "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+      "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncusDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/5fa2dd/ffffff",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
@@ -270,7 +270,8 @@ const freelancers_details = [
   {
     nombre: "Gonzalo Férnandez",
     resumen:
-      "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+      "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus
+      ",
     imagen_perfil: "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
     portafolio: [
       "http://dummyimage.com/250x250.jpg/ff4444/ffffff",
